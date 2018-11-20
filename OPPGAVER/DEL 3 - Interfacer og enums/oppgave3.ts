@@ -1,6 +1,6 @@
 // INTERFACES AND ENUMS
 
-// 1. Gi variabelen 'test17' og 'test18' verdier som stiller alle krav for InterfaceTest
+// Gi variablene 'test17' og 'test18' verdier som stiller alle krav for InterfaceTest
 
 interface Interface1 {
     value1: string;

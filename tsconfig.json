@@ -1,20 +1,19 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "module": "esnext",
-    "moduleResolution": "node",
-    "sourceMap": true,
-    "jsx": "preserve",
+    "module": "amd",
     "noImplicitAny": true,
-    "suppressImplicitAnyIndexErrors": true,
-    "allowSyntheticDefaultImports": false,
-    "newLine": "CRLF",
-    "allowUnreachableCode": false,
-    "skipLibCheck": true,
-    "lib": ["es5", "es2015.core", "es2015.promise", "dom", "scripthost"],
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "strictNullChecks": true,
-    "noEmit": true
-  }
+    "removeComments": true,
+    "sourceMap": true,
+    "target": "ESNext",
+    "outDir": "dist/",
+    "outFile": "./dist/build.js"
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
 }
+

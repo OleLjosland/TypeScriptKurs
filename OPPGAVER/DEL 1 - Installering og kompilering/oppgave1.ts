@@ -5,6 +5,8 @@
     2. Gå til denne mappen og kjør følgende: 
         - tsc oppgave1.ts
     3. Se resultatet i oppgave1.js
+
+    4. Kjør 'node oppgave.js'
 */
 
 function greeter(person: string): string {

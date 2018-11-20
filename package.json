@@ -4,6 +4,9 @@
   "devDependencies": {
     "prettier": "^1.12.1",
     "tslint": "^5.7.0",
-    "typescript": "^2.8.3"
+    "typescript": "^3.1.6",
+    "gulp": "^3.9.1",
+    "gulp-cli": "^2.0.1",
+    "gulp-typescript": "^4.0.2"
   }
 }

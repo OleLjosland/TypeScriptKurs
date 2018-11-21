@@ -32,4 +32,7 @@
     10. Kjør 'tsc' på nytt
     11. Se generert build.js i /dist-mappa
 
+    12. For konfigurering for Gulp, følg tutorial her:
+        https://www.typescriptlang.org/docs/handbook/gulp.html
+
     */

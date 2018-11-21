@@ -1,5 +1,2 @@
-var sayHi = function(): void {
-    console.log("Hello!");
-}
+export default function () { console.log('Hei!')};
 
-export = sayHi;
